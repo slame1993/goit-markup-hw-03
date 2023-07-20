@@ -295,7 +295,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.footer .container .logo  {
+.footer .container .logo {
   display: inline-block;
   padding: 0;
   margin-bottom: 16px;
@@ -359,4 +359,24 @@ body {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+}
+
+.section-filter .list {
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.filter-list-items {
+  width: calc((100% - 48px) / 3);
+}
+
+.card-filter {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.filter-desc {
+  margin-bottom: 8px;
 }

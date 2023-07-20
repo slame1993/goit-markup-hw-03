@@ -52,6 +52,7 @@ body {
   text-transform: uppercase;
   color: var(--logo-web-locor);
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .link {

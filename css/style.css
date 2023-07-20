@@ -122,7 +122,9 @@ body {
   padding: 24px 0;
 }
 
-
+.nav-list link {
+  padding: 24px 0;
+}
 
 /* section solution */
 

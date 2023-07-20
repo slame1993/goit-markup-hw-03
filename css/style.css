@@ -92,6 +92,7 @@ body {
   font-style: normal;
   padding: 24px 0;
   align-items: center;
+  margin-left: auto;
 }
 
 .adress-list {
@@ -121,7 +122,7 @@ body {
 .navigation {
   display: flex;
   align-items: center;
-  margin-right: 332px;
+  /* margin-right: 332px; */
   padding: 24px 0;
 }
 

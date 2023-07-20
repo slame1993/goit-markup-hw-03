@@ -5,6 +5,7 @@
   --logo-web-locor: #4d5ae5;
   --adress-color: #434455;
   --footer-info-color: #f4f4fd;
+  --btn-border: 1px solid #e7e9fc;
 }
 
 h1,
@@ -241,7 +242,7 @@ body {
 /* team secion */
 .team-section {
   background-color: #f4f4fd;
-  padding: 120px;
+  padding: 120px 0;
 }
 
 .team-section-title {
@@ -261,7 +262,7 @@ body {
 
 .team-sectin-list {
   background-color: #ffffff;
-  
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -315,16 +316,21 @@ body {
   color: var(--logo-web-locor);
   background-color: var(--footer-info-color);
   cursor: pointer;
+  border: var(--btn-border);
+  border-radius: 4px;
+  padding: 12px 24px;
 }
 
 .list-btn:hover {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .list-btn:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .filter-desc {
@@ -340,4 +346,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--adress-color);
+}
+
+/* portfoli section filter */
+
+.section-filter {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.section-filter .list {
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }

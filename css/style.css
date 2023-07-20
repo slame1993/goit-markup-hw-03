@@ -372,6 +372,10 @@ body {
   row-gap: 48px;
 }
 
+.row-gap {
+  row-gap: 48px;
+}
+
 .filter-list-items {
   width: calc((100% - 48px) / 3);
 }

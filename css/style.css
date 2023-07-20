@@ -87,6 +87,7 @@ body {
 
 .adress {
   font-style: normal;
+  padding: 24px 0;
 }
 
 .adress-list {
@@ -116,13 +117,11 @@ body {
   display: flex;
   align-items: center;
   margin-right: 332px;
-}
-
-.list-items {
   padding: 24px 0;
 }
 
-.nav-list link {
+
+.nav-list {
   padding: 24px 0;
 }
 

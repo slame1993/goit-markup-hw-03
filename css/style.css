@@ -241,6 +241,7 @@ body {
 /* team secion */
 .team-section {
   background-color: #f4f4fd;
+  padding: 120px;
 }
 
 .team-section-title {
@@ -251,16 +252,36 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--list-items-color);
+  margin-bottom: 72px;
+}
+
+.team-section .container .list {
+  gap: 24px;
 }
 
 .team-sectin-list {
   background-color: #ffffff;
+  
+  border-radius: 0px 0px 4px 4px;
+}
+
+.card-desc {
+  padding: 32px 0;
+}
+
+.list-title {
+  text-align: center;
+}
+
+.list-desc {
+  text-align: center;
 }
 
 /* footer */
 
 .footer {
   background-color: var(--logo-color);
+  padding: 100px 0;
 }
 
 .logo-span-footer {
@@ -271,6 +292,16 @@ body {
   line-height: 1.5;
   color: var(--footer-info-color);
   letter-spacing: 0.02em;
+}
+
+.footer .container .logo  {
+  display: inline-block;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.footer-info {
+  max-width: 264px;
 }
 
 /* portfolio */

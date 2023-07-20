@@ -362,6 +362,10 @@ body {
   margin-bottom: 72px;
 }
 
+.section-filter .container .list {
+  gap: 24px;
+}
+
 .section-filter .list {
   flex-wrap: wrap;
   column-gap: 24px;

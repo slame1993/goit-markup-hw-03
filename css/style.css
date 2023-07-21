@@ -368,12 +368,12 @@ body {
 
 .section-filter .list {
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+  gap: 24px;
 }
 
-.row-gap {
+.section-filter .container .row-gap {
   row-gap: 48px;
+  column-gap: 24px;
 }
 
 .filter-list-items {

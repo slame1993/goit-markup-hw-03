@@ -358,8 +358,8 @@ body {
 
 .section-filter .list {
   justify-content: center;
-  gap: 24px;
   margin-bottom: 72px;
+  gap: 24px;
 }
 
 .gap-list {
